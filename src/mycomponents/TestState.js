@@ -9,7 +9,7 @@ class TestState extends React.Component {
   }
 
   changeMsg(a) {
-    if (a == 1) {
+    if (a === 1) {
       this.setState({ message: "Button 1 pressed", time: 21 });
     } else {
       this.setState({ message: "Button 2 pressed" ,time:24});
